@@ -28,7 +28,7 @@ app.use(express.static("client/build"));
 
 // -------------------------------------------------
 
-mongoose.connect("mongodb://radcon4:leahkr_12@ds023593.mlab.com:21166/nytreact");
+mongoose.connect("mongodb://user:reacttrial@ds023593.mlab.com:21166/nytreact");
 // mongoose.connect("mongodb://admin:reactrocks@ds023593.mlab.com:23593/heroku_pg676kmk");
 
 var db = mongoose.connection;
