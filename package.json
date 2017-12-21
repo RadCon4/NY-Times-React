@@ -12,8 +12,5 @@
     "start": "node server/server.js",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
-  "proxy": {
-    "/api/*": {
-      "target": "http://localhost:4000"
-    }
-  }
+  "proxy": "http://localhost:4000"
+}
