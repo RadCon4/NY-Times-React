@@ -1,6 +1,6 @@
 import axios from "axios";
 
-var APIKey = "0fe99c5b8abb49dab5ea424cf691030f";
+var APIKey = "INSERT API KEY HERE";
 
 const helpers = {
 
