@@ -61,5 +61,5 @@ class Main extends Component {
   }
 };
 
-// Export the module back to the route
+
 export default Main;
