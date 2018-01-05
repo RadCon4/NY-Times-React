@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class Query extends Component {
 
-// default values
+
   state = { 
     search: "star wars",
     start: "2001",
@@ -74,7 +74,7 @@ class Query extends Component {
 
                   </div>
 
-                  {/* Here we create the onClick event that triggers the HandleSubmit */}
+                  {}
                   <div className="pull-right">
                     <button
                       type="submit"
